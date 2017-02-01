@@ -1,0 +1,49 @@
+wechat_obj.create_menu({
+	'button' : [
+		{
+			'name'       : 'Coder世界',
+			'sub_button' : [
+				{
+					'type' : 'click',
+					'name' : 'PHP',
+					'key'  : 'PHP'
+				},
+				{
+					'type' : 'click',
+					'name' : 'Python',
+					'key'  : 'Python'
+				}
+			]
+		},
+		{
+			'name'       : '便捷工具',
+			'sub_button' : [
+				{
+					'type' : 'click',
+					'name' : '天气',
+					'key'  : 'weather'
+				}
+			]
+		},
+		{
+			'name'       : '其他菜单',
+			'sub_button' : [
+				{
+					'type' : 'view',
+					'name' : '度娘搜索',
+					'url'  : 'http://www.baidu.com/'
+				},
+				{
+					'type' : 'view',
+					'name' : '加我好友',
+					'url'  : 'http://sighttp.qq.com/msgrd?v=3&uin=1737723363&site=&menu=yes'
+				},
+				{
+					'type' : 'click',
+					'name' : '给我点赞',
+					'key'  : 'click_good'
+				}
+			]
+		}
+	]
+})
