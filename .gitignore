@@ -1,2 +1,2 @@
 .idea
-MainService/migrations
+MainService/migrations/0*.py
